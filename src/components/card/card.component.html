@@ -1,0 +1,15 @@
+<div [ngClass]="edit ? 'card' : 'inactive'">
+  <div class="head">
+    <div>
+      <h1>{{todo.title}}</h1>
+      <p>{{todo.description}}</p>
+    </div>
+    <input type="checkbox" (change)="handlerCheckbox($event)" *ngIf="closed" checked />
+    <input type="checkbox" (change)="handlerCheckbox($event)" *ngIf="!closed" />
+  </div>
+  <hr />
+  <div class="footer">
+    <p>{{date}}</p>
+    <p>{{start}} - {{end}}</p>
+  </div>
+</div>

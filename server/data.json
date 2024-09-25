@@ -1,0 +1,29 @@
+[
+    {
+        "id": "c054f679-7d64-47d7-b67f-b00d647aaad9",
+        "title": "TEST",
+        "description": "Test",
+        "date": 1727222400000,
+        "start": 1727223540000,
+        "end": 1727230740000,
+        "status": "closed"
+    },
+    {
+        "id": "c34d6288-495a-455b-a7f0-14db888d5253",
+        "title": "Esame",
+        "description": "UniVr",
+        "date": 1727395200000,
+        "start": 1727434800000,
+        "end": 1727440200000,
+        "status": "open"
+    },
+    {
+        "id": "33ac7b6a-680e-4d53-8992-4b94f30330ca",
+        "title": "Cena",
+        "description": "Cena al moro",
+        "date": 1727395200000,
+        "start": 1727444100000,
+        "end": 1727458500000,
+        "status": "open"
+    }
+]

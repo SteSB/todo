@@ -1,0 +1,19 @@
+<div class="main">
+    <label for="title">Titolo</label>
+    <input type="text" id="title" [(ngModel)]="title" placeholder="Titolo attività">
+  
+    <label for="description">Descrizione</label>
+    <input type="text" id="description" [(ngModel)]="description" placeholder="Descrizione">
+  
+    <label for="date">Data attività</label>
+    <input type="date" id="date" [(ngModel)]="date">
+  
+    <label for="start">Ora inizio</label>
+    <input type="time" id="start" [(ngModel)]="start">
+  
+    <label for="end">Ora fine</label>
+    <input type="time" id="end" [(ngModel)]="end">
+  
+    <button (click)="close()" class="closeButton">Chiudi</button>
+    <button (click)="addTodo()" class="addButton">Aggiungi Todo</button>
+  </div>
